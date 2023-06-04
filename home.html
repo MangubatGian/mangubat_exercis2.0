@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5em;
+  color: rgb(0, 0, 0);
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 20%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+
+
+/* TABLE FOR PRODUCTS */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+td, th, tr {
+  border: 2px solid #000000;
+  text-align: center;
+  padding: 5px;
+}
+
+td.img {
+  text-align: center;
+  padding: 4px;
+}
+
+/*
+tr:nth-child(even) {
+  background-color: #dddddd;
+} */
+
+/* CSS for Contact page -- Form */
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#Home {background-color: rgb(207, 102, 102);}
+#Home {background-image: url(img0.png);}
+#Home {background-repeat: no-repeat;}
+#Home {background-position: center top;}
+
+#About {background-color: green;}
+#About {background-image: url(gadgets.jpg);}
+#About{background-repeat: no-repeat;}
+#About{background-position: center top;}
+#About{background-size: 1500px 1000px;}
+
+
+#Products {background-color: rgb(69, 87, 229);}
+#Products {background-image: url(image.jpg);}
+#Products {background-repeat: repeat;}
+#Contact {background-color: orange;}
+#Gallery {background-color: rgb(204, 116, 226);}
+
+</style>
+
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('Home', this, 'grey')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('About', this, 'grey')" >About</button>
+<button class="tablink" onclick="openPage('Products', this, 'grey')">Products</button>
+<button class="tablink" onclick="openPage('Contact', this, 'grey')">Contact</button>
+<button class="tablink" onclick="openPage('Gallery', this, 'grey')">Gallery</button>
+
+<div id="Home" class="tabcontent">
+ 
+
+ 
+  <!-- home -->
+
+  <h1 align = "center">GCM Gadgets</h1>
+<form  style =" background-color: #393118;  padding: 10px; "> 
+  <h4 align = "center">
+    Welcome to the homepage of GCM Gadgets! We at GCM Gadgets are committed to providing you the most recent and advanced technology 
+    available. Our homepage serves as the entrance to a fantastic world of technology where you can explore a variety of innovative 
+    products that will keep up with the hottest trends.
+
+    <br>
+    <br>
+
+    The founder of GCM Gadgets is likely to have a strong interest for cutting-edge technology, an excellent sense of design,
+     and a dedication to providing the customers they serve with high-quality items. They work hard to find and maintain the most
+     innovative and attractive devices for their customers because they realize just how essential it is to stay ahead of the curve
+      in a field that is constantly changing.
+
+  </h4>
+</form>
+
+</div>
+
+<div id="About" class="tabcontent">
+  <h2 align = "center">About</h2>
+  
+  <p>GSM Gadgets focus on selling computer peripherals typically aim to provide a wide range of options and convenient purchasing experiences for customers. 
+    These stores may offer a diverse selection of products from various brands, allowing customers to compare features, prices, and customer reviews to make 
+    informed purchasing decisions.
+    <br>
+    <br> 
+    The primary purpose of such stores is to cater to the needs of individuals or businesses looking to upgrade or expand their computer systems. 
+    By offering a comprehensive range of computer peripherals, these stores aim to provide a one-stop solution for customers to find and purchase the products 
+    they require. 
+    <br>
+    <br> 
+    Additionally, online stores often provide customer support, warranty services, and after-sales assistance to ensure a satisfactory experience for their customers. </p>
+</div>
+
+<div id="Products" class="tabcontent">
+  <form style =" background-color: #0d299c;  padding: 10px;"
+ > 
+    
+      <h2 align ="center"> Peripherals </h2>
+
+        <table>
+          <tr>
+            <th>Product Name</th>
+            <th>Image</th>
+            <th>Product Specifications</th>
+            <th>Price</th>
+          </tr>
+
+          <tr>
+            <td>RAKK Kusog Pro 7.1 RGB Gaming Headset USB Black</td>
+            <td><img src = "img1.png" height="30%" width ="30%"></td> 
+            <td text-align = "left"> Brand: Rakk <br> 
+              Model: Kusog Pro <br>
+              Color: Black <br>
+              Features<br>
+              7.1 Virtual Surround Sound<br>
+              50mm Audio Drivers<br>
+              Noise Cancellation Microphone <br>
+              Sound Controller - Mute and Volume Control<br>
+              Removable Ear Foam<br>
+              Software Audio Finetuner<br>
+              Braided Cables 2.1m<br>
+              RGB Lighting </td>
+            <td> ₱995.00</td>
+          </tr>
+
+          <tr>
+            <td>Plantronics Blackwire C3220 Wired Headset On-Ear Mono Headset with Boom Mic-USB-A</td>
+            <td><img src = "img2.jpg" height="30%" width ="30%" align = "center"></td> 
+            <td> Brand: Plantronics <br>
+              Model: C3220 <br>
+              Connection Type: Wired <br>
+              Earphone, Headphone, & Headset Type: On Ear<br>
+              Gaming Focused: No<br>
+              Audio Compatibility: PC & Laptop<br>
+              Sports Focused: No<br>
+              Earphones, Headphones & Headsets Features: Built-in Microphone, Volume Control<br>
+              Impedance: 32Ohms<br>
+              Connects to: PC via USB-A<br>
+              Compatibility: Windows or Mac OS </td>
+            <td> ₱1,750.00</td>
+          </tr> 
+
+          <tr>
+            <td>Redragon K617 FIZZ 60% Wired RGB Gaming Keyboard, 61 Keys Compact Mechanical Keyboard</td>
+            <td><img src = "img3.jpg"  height="30%" width ="30%" align = "center"></td> 
+            <td> Brand: Redragon <br>
+              Model: K617 FIZZ <br>
+              Features:<br>
+              Pro Software Support: Key/Backlit Redefinable<br>
+              Dual-Color Design: White & Pink/ White & Grey<br>
+              RGB Backlit Palette: 16.8 Million Color<br>
+              Ultra-Compact Size: 290x98MM<br>
+              60% Ultra-Compact<br>
+              430g Ultra-Light Design: Gear for on-the-go</td>
+            <td> ₱1,275.00</td>
+          </tr> 
+
+          <tr>
+            <td>Royal Kludge RK71 Black and White wireless RGB Huano Brown and Blue Switch Gaming Keyboard</td>
+            <td><img src = "img4.jpg"  height="30%" width ="30%" align = "center"></td> 
+            <td> Brand: Royal Kludge <br>
+              Model: RK71 <br>
+              Color: White and Black <br>
+              Color Switch: Blue and Brown <br>
+              Dimension: 330*102*37mm <br>
+              Net Weight: 0.64 kg <br>
+              Operating Force: 55±10g <br>
+              Key Numbers: 71 Keys <br>
+              Key Life: >50 million times <br>
+              Battery Capacity: 1000 mAh <br>
+              Keycap Type: ABS Double Shot Keycaps</td>
+            <td> ₱1,985.00</td>
+          </tr> 
+
+          <tr>
+            <td> A4Tech kk-3330 Adjustable Keyboard Height FN Hot Keys, 1200 DPI Silent Clicks Usb Black Keyboard and Mouse</td>
+            <td><img src = "img5.jpg"  height="30%" width ="30%" align = "center"></td> 
+            <td> Brand: A4tech <br>
+              Model: kk-3330 <br>
+              Keyboard: KK-3 <br>
+              Keycaps: Traditional <br>
+              Hotkeys: 12 FN Multimedia Hotkeys <br>
+              Character: Laser Engraving <br>
+              Splash Proof: Yes <br>
+              Adjustable Keyboard Legs: Yes <br>
+              Rating: 5 V / 100 mA <br>
+              Cable Length: 150 cm <br>
+              Hardware Connectivity: USB <br>
+              Illuminated: No <br>
+              Mouse: OP-330 / OP-330S <br>
+              Type: Wired <br>
+              Ergonomic Design: Symmetric <br>
+              Sensor: Optical</td>
+            <td> ₱465.00</td>
+          </tr> 
+
+
+          <tr>
+            <td>Nvision EG24SW 165Hz IPS 24.5" Gaming Monitor White</td>
+            <td><img src = "image2.png"  height="30%" width ="30%" align = "center"></td> 
+            <td> Model: EG24S1 <br>
+              Size: 24” inches<br>
+              Resolution: 1920*1080<br>
+              Refresh rate: 165Hz<br>
+              Panel type: IPS<br>
+              Brightness: 230Cdm<br>
+              Screen scale: 16: 9<br>
+              Backlight type:  WLED<br>
+              Static contrast (typical): 1000:1</td>
+            <td> ₱5,325.00</td>
+          </tr> 
+
+          <tr>
+            <td>SpecterPro G24SL 24" IPS 75Hz Freesync Gaming Monitor V-Stand</td>
+            <td><img src = "image3.jpg" height="30%" width ="30%" align = "center"></td> 
+            <td>Brand: Specterpro <br>
+              Model: G24SL<br>
+              Features:<br>
+              Vivid display, Full High Definition resolution with In-Plane Switching Technology<br>
+              Eco-friendly, Low Power Consumption with Low BlueLight Technology Screen Size - 24"<br>
+              Resolution - 1920x1080<br>
+              Response time(gtg) - 5ms<br>
+              Refresh Rate - 75Hz<br>
+              Brightness - 250cd/m2<br>
+              Dynamic Contrast Ratio - 60000000:1<br>
+              Display Ports - HDMI + VGA </td>
+            <td> ₱9,185.00</td>
+          </tr> 
+
+          <tr>
+            <td>Epson EB-E10 XGA 3LCD, 3-chip technology 1024 x 768 (XGA) Projector</td>
+            <td><img src = "image4.jpg"  height="30%" width ="30%" align = "center"></td> 
+            <td> Projection System: 3LCD, 3-chip technology <br>
+              Native Resolution: 1024 x 768 (XGA)  <br>
+              Color Brightness: 3600 lumens  <br>
+              White Brightness: 3600 lumens </td>
+            <td> ₱22,488.00</td>
+          </tr> 
+
+          <tr>
+            <td>Epson L4150 WiFi All in One Ink Tank Printer</td>
+            <td><img src = "image5.jpg"  height="30%" width ="30%" align = "center"></td> 
+            <td> Compact integrated tank design <br>
+              Print speeds up to 10.5ipm for black and 5.0ipm for colour <br>
+              Wi-Fi & Wi-Fi Direct <br>
+              Borderless Printing up to A4 size <br>
+              Spill-free ink refilling <br>
+              Warranty of 1 years or 30,000 pages, whichever comes first </td>
+            <td> ₱10,450.00</td>
+          </tr> 
+
+          <tr>
+            <td>Epson L4150 WiFi All in One Ink Tank Printer</td>
+            <td><img src = "image5.jpg"  height="30%" width ="30%" align = "center"></td> 
+            <td> Product Specs </td>
+            <td> ₱10,450.00</td>
+          </tr> 
+
+
+
+        </table>
+  </form>
+</div>
+
+<div id="Contact" class="tabcontent">
+  
+
+  <h2 align = "center"> Send your Inquiries or Feedbacks</h2>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="gender">Gender</label>
+    <select id="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      
+    </select>
+
+    <label for="feedback">Send your Inquiries or Feedback</label>
+    <textarea id="feedback" name="feedback" placeholder="Write something.." style="height:200px"></textarea>
+
+   <!-- <input type="submit" value="Submit"> -->
+    <button onclick="myFunction()">Submit</button>
+  </form>
+
+</div>
+
+<div id="Gallery" class="tabcontent">
+  <h3>Gallery</h3>
+  <p>Showcase images or multimedia related to the website's theme</p>
+
+  <hr>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="">
+        <img src="ss1.png" alt="Cinque Terre" width="350" height="250">
+        <img src="ss2.png" alt="Cinque Terre" width="350" height="250">
+        <img src="ss3.png" alt="Cinque Terre" width="350" height="250">
+        <img src="ss4.png" alt="Cinque Terre" width="350" height="250">
+      </a>
+    </div>
+  </div>
+  
+  
+  
+</div>
+
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+
+// function submit 
+
+function myFunction() {
+  window.alert("Thank you for Submitting your Feedback");
+  document.getElementById("demo").innerHTML = txt;
+}
+
+</script>
+   
+</body>
+</html> 
